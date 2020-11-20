@@ -4,7 +4,7 @@ A tool that can save debugging time by decoding Cloudlets execution logic and di
 
 Steps to run the tool:
 
-1.After downloading the code zip file, uninstall it.
+1.After downloading the code zip file, unzip it.
 
 2.You should see below 4 files after unzipping
 
@@ -15,7 +15,7 @@ total 128
 -rwxr-xr-x   1 hmallika  staff  29552 Nov 19 16:59 nimbus.conf
 -rwxr-xr-x   1 hmallika  staff   6699 Nov 19 16:59 nimstat.pl
 
-3.Give execute permission to scripts cloudlet_parser.sh  and nimstat.pl: Run below commands in terminal
+3.Give execute permission to scripts cloudlet_parser.sh and nimstat.pl by running below commands in terminal 
     chmod 755 cloudlet_parser.sh
     chmod 755 nimstat.pl
  
