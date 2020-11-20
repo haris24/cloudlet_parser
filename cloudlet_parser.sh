@@ -1,3 +1,9 @@
+# This script will take log lines as input and parse the nim values to debug cloudlet execution.
+# 20-Nov-2020 FIrst version
+# hmallika@akamai.com
+#
+#
+
 echo -e "$1" > loglines_file
 
 log_line=$(grep "nim=" loglines_file)
