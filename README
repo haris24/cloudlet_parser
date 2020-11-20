@@ -15,14 +15,16 @@ total 128
 -rwxr-xr-x   1 hmallika  staff  29552 Nov 19 16:59 nimbus.conf
 -rwxr-xr-x   1 hmallika  staff   6699 Nov 19 16:59 nimstat.pl
 
- 3. Check if cloudlet_parser.sh has execute permission if not run this command to give permission : chmod 755 cloudlet_parser.sh
+3.Give execute permission to scripts cloudlet_parser.sh  and nimstat.pl: Run below commands in terminal
+    chmod 755 cloudlet_parser.sh
+    chmod 755 nimstat.pl
  
- 4. Python and Akamai API prerequisites to run the tool:
+4. Python and Akamai API prerequisites to run the tool:
     4.1 Python 3 with Akamai Edgegrid dependencies installed.
         To Install Akamai modules refer https://developer.akamai.com/api/getting-started  and/or https://github.com/akamai/httpie-edgegrid
     4.2 Valid API credentials (created in Akamai Technologies - Assets account that has multi-account access, edgerc file should have a default section) 
 
-5.  To run this tool you will have to execute this shell script cloudlet_parser.sh with log lines in double quotes.
+5. To run this tool you will have to execute this  script cloudlet_parser.sh with log lines in double quotes.
 
 Example:
 
@@ -91,3 +93,15 @@ Marketing_PROD_43464_NGAredirects v7 on prod:
     "useIncomingQueryString": false
 }
 ------------------------------------
+
+
+
+Notes:
+
+If you see errors like below, that means Python script is having problems accessing Akamai edgegrid modules, check step 4.1 above and try again.
+
+
+Traceback (most recent call last):
+  File "/Users/hmallika/Downloads/cloudlet_parser-main/get_policy_id.py", line 8, in <module>
+    from config import EdgeGridConfig
+ModuleNotFoundError: No module named 'config'
