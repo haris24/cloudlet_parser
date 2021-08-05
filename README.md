@@ -1,5 +1,6 @@
-# cloudlet_parser
 
+# cloudlet_parser
+```
 A tool that can save debugging time by decoding Cloudlets execution logic and displaying some useful information. Read through the below steps to use the tool. For any queries and feedback email hmallika@akamai.com
 
 Steps to run the tool:
@@ -105,3 +106,4 @@ Traceback (most recent call last):
   File "/Users/hmallika/Downloads/cloudlet_parser-main/get_policy_id.py", line 8, in <module>
     from config import EdgeGridConfig
 ModuleNotFoundError: No module named 'config'
+```
