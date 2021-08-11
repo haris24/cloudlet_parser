@@ -51,17 +51,17 @@ policy-selector-cost          : #615951
 
 ------------------------------------
 Cloudlet executed :  Edge Redirector
-Policy name : Marketing_PROD_43464_NGAredirects
+Policy name : Dummy_PROD_redirects
 Executed rule id :  f6a47dae7a930fe8
-Account ID : F-AC-200209
+Account ID : F-C-2009
 Getting executed rule description for reference..
 This will fetch data only if you have valid API credentials (created in Akamai Technologies - Assets account that has multi-account access) and your edgerc file has a default section
-Marketing_PROD_43464_NGAredirects v7 on prod:
+Dummy_PROD_redirects v7 on prod:
 {
     "akaRuleId": "f6a47dae7a930fe8",
     "end": 0,
     "id": 0,
-    "location": "/cloudlets/api/v2/policies/128111/versions/7/rules/f6a47dae7a930fe8",
+    "location": "/cloudlets/api/v2/policies/128111/versions/7/rules/f6a47daea930fe8",
     "matchURL": null,
     "matches": [
         {
